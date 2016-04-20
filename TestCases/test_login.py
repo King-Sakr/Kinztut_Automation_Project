@@ -12,10 +12,12 @@ from Pages.LoginPage import LoginPage
 @ddt
 class LoginTest(BaseTestCase):
 
-    @data(*read_excel.get_data_from_excel('D:\Automation\Kinztut_Automation_Project\Data\login_data.xlsx','login'))
+    @data(*read_excel.get_data_from_excel('D:\Automation\Kinztut_Automation_Live\Kinztut_Automation_Project\Data\login_data.xlsx','login'))
     @unpack
-    def test_login_valid(self,email_address,password):
-       LoginPage.login(self,email_address,password)
+
+
+    def test_login_valid(self, Email_Address,Password, LoginName):
+       LoginPage.login(self, Email_Address,Password)
        sleep(3);
        #self.assertEqual(LoginName,HomePage.get_login_name(self))
        #print(HomePage.get_login_name(self))

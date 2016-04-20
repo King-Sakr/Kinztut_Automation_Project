@@ -12,9 +12,10 @@ class LoginPage():
     Password_TXT = (By.NAME,'login_pass')  # Define Password field
     # text_area.send_keys('P@ssw0rd')#Enter Password
 
-    Signin_BTN = (By.ID,'customer_login')  # Define Login Button
+    Signin_BTN = (By.XPATH,".//*[@id='customer_login']/input[3]")  # Define Login Button
 
     def login(self,email_address,password):
         self.driver.find_element(*LoginPage.Email_TXT).send_keys(email_address)
         self.driver.find_element(*LoginPage.Password_TXT).send_keys(password)
-        self.driver.find_element(*LoginPage.Signin_BTN).click()
+        self.driver.find_element(*LoginPage.Signin_BTN).send_keys("\n")
+
