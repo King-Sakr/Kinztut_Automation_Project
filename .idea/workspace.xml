@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8625836-71e1-433b-a464-65b3004d0ce0" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Kinztut_Automation_Project.iml" afterPath="$PROJECT_DIR$/.idea/Kinztut_Automation_Project.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestCases/test_login.py" afterPath="$PROJECT_DIR$/TestCases/test_login.py" />
     </list>
     <ignored path="Kinztut_Automation_Project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test_login.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test_login.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TestCases/test_login.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+            <state relative-caret-position="289">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -57,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginPage.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LoginPage.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Pages/LoginPage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="340">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -129,7 +132,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -220,12 +223,12 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.project" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
@@ -233,14 +236,31 @@
       <recent name="D:\Automation\Kinztut_Automation_Project\BaseTestCase2" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittest LoginTest.test_login_valid">
+  <component name="RunManager" selected="Python.test_login">
+    <configuration default="false" name="test_login" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Program Files (x86)\Python35-32\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCases" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Kinztut_Automation_Project" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TestCases/test_login.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
     <configuration default="false" name="Unittest LoginTest.test_login_valid" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Program Files (x86)\Python35-32\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCases" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Kinztut_Automation_Project" />
@@ -390,12 +410,14 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest LoginTest.test_login_valid" />
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Python.test_login" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest LoginTest.test_login_valid" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest LoginTest.test_login_valid" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Python.test_login" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest LoginTest.test_login_valid" />
       </list>
     </recent_temporary>
   </component>
@@ -421,22 +443,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittest_LoginTest_test_login_valid - 2016.04.20 at 06h 07m 57s.xml">
+    <history-entry file="Unittest_LoginTest_test_login_valid - 2016.04.20 at 07h 16m 29s.xml">
       <configuration name="Unittest LoginTest.test_login_valid" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_LoginTest_test_login_valid - 2016.04.20 at 06h 08m 30s.xml">
+    <history-entry file="Unittest_LoginTest_test_login_valid - 2016.04.20 at 07h 16m 31s.xml">
       <configuration name="Unittest LoginTest.test_login_valid" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_LoginTest_test_login_valid - 2016.04.20 at 06h 09m 06s.xml">
+    <history-entry file="Unittest_LoginTest_test_login_valid - 2016.04.20 at 07h 16m 36s.xml">
       <configuration name="Unittest LoginTest.test_login_valid" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_LoginTest_test_login_valid - 2016.04.20 at 06h 10m 45s.xml">
+    <history-entry file="Unittest_LoginTest_test_login_valid - 2016.04.20 at 07h 16m 41s.xml">
       <configuration name="Unittest LoginTest.test_login_valid" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_LoginTest_test_login_valid - 2016.04.20 at 06h 12m 41s.xml">
+    <history-entry file="Unittest_LoginTest_test_login_valid - 2016.04.20 at 07h 16m 42s.xml">
       <configuration name="Unittest LoginTest.test_login_valid" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_LoginTest_test_login_valid - 2016.04.20 at 06h 24m 52s.xml">
+    <history-entry file="Unittest_LoginTest_test_login_valid - 2016.04.20 at 07h 16m 43s.xml">
+      <configuration name="Unittest LoginTest.test_login_valid" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittest_LoginTest_test_login_valid - 2016.04.20 at 07h 16m 48s.xml">
+      <configuration name="Unittest LoginTest.test_login_valid" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittest_LoginTest_test_login_valid - 2016.04.20 at 07h 16m 49s.xml">
+      <configuration name="Unittest LoginTest.test_login_valid" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittest_LoginTest_test_login_valid - 2016.04.20 at 07h 16m 50s.xml">
+      <configuration name="Unittest LoginTest.test_login_valid" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittest_LoginTest_test_login_valid - 2016.04.20 at 07h 16m 51s.xml">
       <configuration name="Unittest LoginTest.test_login_valid" configurationId="tests" />
     </history-entry>
   </component>
@@ -449,7 +483,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3273495" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3273495" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -477,8 +511,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/TestCases/test_login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="204">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -504,14 +538,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Pages/LoginPage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BaseTestCase2/BaseTestCase.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -531,8 +557,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TestCases/test_login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataSource/DataSources.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/HomePage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -543,6 +587,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseTestCase2/BaseTestCase.py" />
+    <entry file="file://$PROJECT_DIR$/BaseTestCases/BaseTestCase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/LoginPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -575,11 +638,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BaseTestCase2/BaseTestCase.py">
+    <entry file="file://$PROJECT_DIR$/BaseTestCase2/BaseTestCase.py" />
+    <entry file="file://$PROJECT_DIR$/TestCases/test_login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-          <folding />
+        <state relative-caret-position="289">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

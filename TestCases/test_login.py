@@ -15,7 +15,6 @@ class LoginTest(BaseTestCase):
     @data(*read_excel.get_data_from_excel('D:\Automation\Kinztut_Automation_Project\Data\login_data.xlsx','login'))
     @unpack
     def test_login_valid(self,email_address,password):
-       #HomePage.Login_Homepage(self)
        LoginPage.login(self,email_address,password)
        sleep(3);
        #self.assertEqual(LoginName,HomePage.get_login_name(self))
